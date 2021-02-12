@@ -59,7 +59,6 @@ def dennis_ritchies_language
 end
 
 require 'pry'
-binding.pry
 def adding_matz
 # add the following information to the top level of programmer_hash
 # :yukihiro_matsumoto => {
@@ -91,7 +90,7 @@ def adding_matz
 	programmer_hash[:yukihiro_matsumoto]
 	puts "hi!"
 end
-
+binding.pry
 
 
 
