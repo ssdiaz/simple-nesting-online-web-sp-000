@@ -58,7 +58,7 @@ def dennis_ritchies_language
 	programmer_hash[:dennis_ritchie][:languages].join
 end
 
-require 'pry'
+#require 'pry'
 def adding_matz
 # add the following information to the top level of programmer_hash
 # :yukihiro_matsumoto => {
@@ -87,9 +87,9 @@ programmer_hash[:yukihiro_matsumoto] = {
 	    :languages => ["LISP", "C"]
 	 }
 	puts programmer_hash[:yukihiro_matsumoto]
-	puts "hi!!"
+	#puts "hi!!"
 end
-binding.pry
+#binding.pry
 
 
 
