@@ -88,7 +88,7 @@ programmer_hash[:yukihiro_matsumoto] = {}
 	#     :languages => ["LISP", "C"]
 	#  }
 	puts programmer_hash[:yukihiro_matsumoto]
-	puts "hi!"
+	puts "hi!!"
 end
 binding.pry
 
